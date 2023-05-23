@@ -11,6 +11,10 @@ app.get('/', (req, res) => {
   res.send('Jo gast!');
 });
 
+app.get('/melbourne-2023', (req, res) => {
+    res.send('De uitslag in melbourne 2023 is: 1. Max Verstappen 2. Lewis Hamilton 3. Charles Leclerc');
+  });
+
 // Start de server en luister naar een bepaalde poort
 const port = 3000;
 app.listen(port, () => {
